@@ -27,7 +27,7 @@ export async function analyzeMedia(
   isRefining: boolean = false,
   refinementType?: string
 ): Promise<AnalysisResult> {
-const model = "gemini-1.5-flash";  
+const model = "gemini-2.5-flash";
   const systemInstruction = `You are PromptVision AI, an elite multimodal AI visual prompt engineer and cinematic analyst.
 Your task is to reverse engineer uploaded media into professional AI generation prompts.
 
